@@ -1,0 +1,10 @@
+To execute just one command use: ansible -i inventory all -m "shell" -a "touch create-newfile.txt"
+To check for ansible modules check://docs.ansible.com/ansible/2.9/modules/list_of_all_modules.html
+
+
+To execute for a group of servers: ansible -i inventory webservers -m "shell" "touch create-newfile.txt"
+
+
+To exceute from ansible playbook: ansible - i inventory ansible-playbook.yml
+
+To execute in verbose mode: ansible -v -i inventory ansible-playbook.yml

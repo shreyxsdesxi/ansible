@@ -1,0 +1,6 @@
+[databaseservers]
+<ip address of server>
+
+
+[webservers]
+<ip of web server>
